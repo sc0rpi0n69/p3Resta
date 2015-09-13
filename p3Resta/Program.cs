@@ -10,10 +10,11 @@ namespace p3Resta
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo");
+            Console.WriteLine("Dame el primer numero: ");
+            int numero1 = int.Parse(Console.ReadLine());
 
-            Console.Write("Por favor precione cualquier tecla para continuar");
-            Console.ReadKey(true);
+            Console.WriteLine("Dame el segundo numero: ");
+            int numero2 = int.Parse(Console.ReadLine());
         }
     }
 }
